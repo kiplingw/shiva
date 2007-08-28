@@ -28,9 +28,6 @@ namespace Shiva
 
             // Unlock mutex...
             void Unlock();
-            
-            // Deconstructor...
-           ~Mutex();
 
         // Protected attributes...
         protected:

@@ -6,7 +6,7 @@
 
 // Includes...
 #include "Mutex.h"
-
+#include <stdio.h>
 // Select Shiva namespace...
 using namespace Shiva;
 
@@ -67,12 +67,5 @@ void Mutex::Unlock()
             // Neither any inputs nor clobbered registers...
             : 
             :);
-}
-
-// Deconstructor...
-Mutex::~Mutex()
-{
-    // Unlock on the way out...
-    Unlock();
 }
 
