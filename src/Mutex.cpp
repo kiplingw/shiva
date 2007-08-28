@@ -20,13 +20,6 @@ void Mutex::Lock()
     }
 }
 
-// Check if the mutex is locked, without trying to change it...
-bool Mutex::IsLocked() const
-{
-    // Return state...
-    return (bool) bLocked;
-}
-
 // Try to lock the mutex...
 bool Mutex::TryLock()
 {

@@ -17,12 +17,9 @@ int main()
     
     // Lock it...
     TestMutex.Lock();
+   
     
-    /* Check if locked...
-    if(TestMutex.IsLocked())
-        printf("Mutex reported locked...\n");
-    
-    if(!TestMutex.TryLock())
+    /*if(!TestMutex.TryLock())
         printf("TryLock failed...\n");
     
     printf("Trying to Lock now, should hang...\n");

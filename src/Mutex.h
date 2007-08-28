@@ -23,9 +23,6 @@ namespace Shiva
             // Lock mutex...
             void Lock();
 
-            // Check if the mutex is locked, without trying to change it...
-            bool IsLocked() const;
-
             // Try to lock the mutex...
             bool TryLock();
 
