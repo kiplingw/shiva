@@ -6,7 +6,7 @@
 
 // Includes...
 #include "Mutex.h"
-#include <stdio.h>
+
 // Select Shiva namespace...
 using namespace Shiva;
 
